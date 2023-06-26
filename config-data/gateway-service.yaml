@@ -32,7 +32,7 @@ spring:
           uri: lb://acopio-service
           predicates:
             - Path=/acopio/**
-        - id: datosLeche-service
-          uri: lb://datosLeche-service
+        - id: datos-service
+          uri: lb://datos-service
           predicates:
-            - Path=/datosLeche/**
+            - Path=/datos/**
