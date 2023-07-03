@@ -36,3 +36,7 @@ spring:
           uri: lb://datos-service
           predicates:
             - Path=/datos/**
+        - id: pagos-service
+          uri: lb://pagos-service
+          predicates:
+            - Path=/pagos/**
